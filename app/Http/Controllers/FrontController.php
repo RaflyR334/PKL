@@ -21,5 +21,35 @@ class FrontController extends Controller
         return view('contact');
     }
 
+    public function product()
+    {
+        return view('product');
+    }
+
+    public function detailpro()
+    {
+        return view('detailpro');
+    }
+
+    public function cart()
+    {
+        return view('cart');
+    }
+
+    public function compaire()
+    {
+        return view('compaire');
+    }
+
+    public function wishlist()
+    {
+        return view('wishlist');
+    }
+
+    public function userd()
+    {
+        return view('userd');
+    }
+
     //method selanjutnya untuk bagian front
 }

@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <div class="header-compaire">
-                        <a href="compaire.html" class="cart-item">
+                        <a href="{{url('compaire')}}" class="cart-item">
                             <span>
                                 <svg width="34" height="27" viewBox="0 0 34 27" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +91,7 @@
                         </a>
                     </div>
                     <div class="header-favourite">
-                        <a href="wishlist.html" class="cart-item">
+                        <a href="{{url('wishlist')}}" class="cart-item">
                             <span>
                                 <svg width="35" height="27" viewBox="0 0 35 27" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -110,7 +110,7 @@
                         </a>
                     </div>
                     <div class="header-cart">
-                        <a href="cart.html" class="cart-item">
+                        <a href="{{url('cart')}}" class="cart-item">
                             <span>
                                 <svg width="35" height="28" viewBox="0 0 35 28" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -233,14 +233,14 @@
                                     <h5 class="wrapper-title">$60</h5>
                                 </div>
                                 <div class="cart-btn">
-                                    <a href="cart.html" class="shop-btn view-btn">View Cart</a>
+                                    <a href="{{url('cart')}}" class="shop-btn view-btn">View Cart</a>
                                     <a href="checkout.html" class="shop-btn checkout-btn">Checkout Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="header-user">
-                        <a href="user-profile.html">
+                        <a href="{{url('user')}}">
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                     class="fill-current">
@@ -272,7 +272,7 @@
             <a href="index.html" class="mobile-header-logo">
                 <img src="./front/assets/images/logos/logo.webp" alt="logo">
             </a>
-            <a href="cart.html" class="header-cart cart-item">
+            <a href="{{url('cart')}}" class="header-cart cart-item">
                 <span>
                     <svg width="35" height="28" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -300,7 +300,7 @@
                 <div class="header-top">
                     <div class="header-cart ">
                         <div class="header-compaire">
-                            <a href="compaire.html" class="cart-item">
+                            <a href="{{url('compaire')}}" class="cart-item">
                                 <span>
                                     <svg width="34" height="27" viewBox="0 0 34 27" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -323,7 +323,7 @@
                             </a>
                         </div>
                         <div class="header-favourite">
-                            <a href="wishlist.html" class="cart-item">
+                            <a href="{{url('wishlist')}}" class="cart-item">
                                 <span>
                                     <svg width="35" height="27" viewBox="0 0 35 27" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -364,7 +364,7 @@
                                 <div class="dropdown-item d-flex justify-content-between align-items-center">
                                     <div class="dropdown-list-item d-flex">
                                         <span class="dropdown-img">
-                                            <img src="./front/assets/images/homepage-one/category-img/dresses.webp"
+                                            <img src="{{asset('front/assets/images/homepage-one/category-img/dresses.webp')}}"
                                                 alt="dress">
                                         </span>
                                         <span class="dropdown-text">
@@ -967,7 +967,7 @@
                             </a>
                         </li>
                         <li class="mega-menu">
-                            <a href="product-sidebar.html">
+                            <a href="{{url('product')}}">
                                 <span class="list-text">Shop</span>
                                 <span>
                                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
@@ -1037,7 +1037,7 @@
                                 </span>
                             </a>
                             <ul class="header-sub-menu">
-                                <li><a href="product-info.html">Product-details</a></li>
+                                <li><a href="{{url('detailpro')}}">Product-details</a></li>
                                 <li><a href="privacy.html">Privacy Policy</a></li>
                                 <li><a href="terms.html">Terms & Condition</a></li>
                                 <li><a href="faq.html">FAQ</a></li>
@@ -1059,7 +1059,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="user-profile.html">
+                            <a href="{{url('user')}}">
                                 <span class="list-text">User Dashboard</span>
                             </a>
                         </li>
