@@ -30,7 +30,7 @@
                 </thead>
                 <tbody class="table-border-bottom-0">
                     @php $i=1; @endphp
-                    @foreach ($users as $data)
+                    @foreach ($user as $data)
                     <tr>
                         <td>{{$i++}}</td>
                         <td>{{$data->name}}</td>
